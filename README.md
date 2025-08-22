@@ -19,7 +19,7 @@ Construída com **React**, **Redux Toolkit** e **TailwindCSS**.
 
 ## Como rodar
 ```bash
-git clone https://github.com/seu-usuario/app-montar-times.git
+git clone https://github.com/guicaxero/squad-random.git
 cd app-montar-times
 npm install
 npm run dev
