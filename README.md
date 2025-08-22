@@ -13,6 +13,7 @@ Construída com **React**, **Redux Toolkit** e **TailwindCSS**.
 
 ## Tecnologias
 - React
+- React Router DOM
 - Redux Toolkit
 - React Redux
 - TailwindCSS
