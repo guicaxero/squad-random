@@ -20,6 +20,6 @@ Construída com **React**, **Redux Toolkit** e **TailwindCSS**.
 ## Como rodar
 ```bash
 git clone https://github.com/guicaxero/squad-random.git
-cd app-montar-times
+cd squad-random
 npm install
 npm run dev
