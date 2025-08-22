@@ -10,7 +10,11 @@ const Navbar = () => {
                 >
                     <li>Home</li>
                 </Link>
-                <li>Times</li>
+                <Link
+                    to="/teams"
+                >
+                    <li>Teams</li>
+                </Link>
                 <li>Estrelas</li>
             </ul>
         </nav>

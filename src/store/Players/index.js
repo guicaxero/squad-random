@@ -25,8 +25,11 @@ export const playersSlice = createSlice({
       state.list = [];
       state.teams = [];
     },
+    removePlayer: (state, action) => {
+        state.list = state.list.filter( player => player.name !== action.payload)
+    }
   },
 });
 
-export const { addPlayer, generateTeams, clearPlayers } = playersSlice.actions;
+export const { addPlayer, generateTeams, clearPlayers, removePlayer } = playersSlice.actions;
 export default playersSlice.reducer;
