@@ -3,7 +3,7 @@ import TeamsList from "../components/Teams"
 
 const FormedTeams = () => {
     return (
-        <TeamsList />
+        <TeamsList title="Times Formados:" />
     )
 }
 

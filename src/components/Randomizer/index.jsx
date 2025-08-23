@@ -1,10 +1,12 @@
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { clearPlayers, generateTeams } from "../../store/Players";
+import { useNavigate } from "react-router-dom";
 
 
 const Randomizer = () => {
     const dispatch = useDispatch();
+    const navigate = useNavigate();
 
     const [numTeams, setNumTeams] = useState(4);
     const players = useSelector((state) => state.players.list);
@@ -12,6 +14,7 @@ const Randomizer = () => {
     const handleGenerateTeams = () => {
         if (players.length < 2) return alert("Adicione mais jogadores!");
         dispatch(generateTeams(numTeams));
+        navigate("/teams")
     };
 
     const handleClear = () => {

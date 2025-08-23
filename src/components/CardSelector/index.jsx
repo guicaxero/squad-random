@@ -10,7 +10,7 @@ const CardSelector = () => {
             <RegisterPlayer />
             <PlayerList />
             <Randomizer />
-            <TeamsList />
+            <TeamsList title="Times:" />
         </main>
     );
 };
