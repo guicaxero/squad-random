@@ -14,10 +14,10 @@ const PlayerList = () => {
     return (
         <>
             {players.length > 0 && (
-            <div className="bg-emerald-800 text-white mb-4 p-6 rounded-2xl shadow-lg w-full max-w-4xl mx-auto">
+            <div className="bg-emerald-800 text-white mb-4 p-6 rounded-2xl shadow-lg w-full max-w-7xl">
                 <h2 className="font-bold mb-4 text-3xl text-center">Jogadores</h2>
 
-                <ul className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-2">
+                <ul className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
                 {players.map((p, index) => (
                     <li
                     key={index}
