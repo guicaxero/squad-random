@@ -1,26 +1,40 @@
-# ⚽ App de Montagem de Times
+# ⚽ Squad-Random - Divisão de Times Aleatória
 
-## Descrição
-Aplicação web para adicionar jogadores e gerar times de futebol aleatórios.  
-Construída com **React**, **Redux Toolkit** e **TailwindCSS**.
+![Made with React](https://img.shields.io/badge/Made%20with-React-blue?logo=react)
+![Redux Toolkit](https://img.shields.io/badge/State-Redux%20Toolkit-purple)
+![TailwindCSS](https://img.shields.io/badge/Style-TailwindCSS-teal)
+![JavaScript](https://img.shields.io/badge/Language-JavaScript-yellow)
 
-## Funcionalidades
-- Adicionar jogadores via input.
-- Visualizar jogadores em grid responsivo (até 5 por linha).
-- Gerar times aleatórios.
-- Limpar lista de jogadores e times.
-- Responsiva para mobile, tablet e desktop.
+Aplicação web simples para **adicionar jogadores e gerar times aleatórios**, evitando aquelas famosas “panelinhas” entre amigos e tornando a divisão de times mais **justa e divertida**.  
 
-## Tecnologias
-- React
-- React Router DOM
-- Redux Toolkit
-- React Redux
-- TailwindCSS
+Construída com **React**, **Redux Toolkit**, **React Router DOM** e **TailwindCSS**, com layout responsivo para qualquer dispositivo.
 
-## Como rodar
+---
+
+## ✨ Funcionalidades
+
+- Adicionar jogadores via input  
+- Visualizar lista de jogadores em **grid responsivo**  
+- Gerar **times aleatórios** rapidamente  
+- Limpar lista de jogadores e times com um clique  
+- Layout **mobile-first**, tablet e desktop  
+
+---
+
+## 🎯 Objetivo
+
+Resolver de forma prática o problema de **divisão de times entre amigos**, garantindo jogos mais justos e divertidos sem favoritismo.
+
+---
+
+## ⚙️ Como Rodar Localmente
+
 ```bash
+# Clone o repositório
 git clone https://github.com/guicaxero/squad-random.git
-cd squad-random
+
+# Instale as dependências
 npm install
+
+# Rode a aplicação
 npm run dev
